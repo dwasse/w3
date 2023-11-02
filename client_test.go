@@ -9,17 +9,17 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/dwasse/w3"
+	"github.com/dwasse/w3/internal"
+	"github.com/dwasse/w3/module/eth"
+	"github.com/dwasse/w3/rpctest"
+	"github.com/dwasse/w3/w3types"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/google/go-cmp/cmp"
-	"github.com/lmittmann/w3"
-	"github.com/lmittmann/w3/internal"
-	"github.com/lmittmann/w3/module/eth"
-	"github.com/lmittmann/w3/rpctest"
-	"github.com/lmittmann/w3/w3types"
 )
 
 var (

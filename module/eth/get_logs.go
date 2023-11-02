@@ -3,11 +3,11 @@ package eth
 import (
 	"fmt"
 
+	"github.com/dwasse/w3/internal/module"
+	"github.com/dwasse/w3/w3types"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/lmittmann/w3/internal/module"
-	"github.com/lmittmann/w3/w3types"
 )
 
 // Logs requests the logs of the given ethereum.FilterQuery q.

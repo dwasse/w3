@@ -3,8 +3,8 @@ package eth
 import (
 	"math/big"
 
-	"github.com/lmittmann/w3/internal/module"
-	"github.com/lmittmann/w3/w3types"
+	"github.com/dwasse/w3/internal/module"
+	"github.com/dwasse/w3/w3types"
 )
 
 // BlockNumber requests the number of the most recent block.

@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/dwasse/w3/internal"
+	"github.com/dwasse/w3/w3types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/lmittmann/w3/internal"
-	"github.com/lmittmann/w3/w3types"
 )
 
 func TestNewFunc(t *testing.T) {
@@ -203,7 +203,7 @@ func TestFuncDecodeArgs(t *testing.T) {
 				Arg1: big.NewInt(42),
 			}},
 		},
-		{ // https://github.com/lmittmann/w3/issues/22
+		{ // https://github.com/dwasse/w3/issues/22
 			Func:    MustNewFunc("transfer(address recipient, uint256 amount)", "bool success"),
 			Input:   B("0x"),
 			Args:    []any{new(common.Address), new(big.Int)},
@@ -273,7 +273,7 @@ func TestFuncDecodeReturns(t *testing.T) {
 			Returns:     []any{&[]byte{}},
 			WantReturns: []any{&[]byte{1, 2, 3}},
 		},
-		{ // https://github.com/lmittmann/w3/issues/25
+		{ // https://github.com/dwasse/w3/issues/25
 			Func:    MustNewFunc("test()", "(address arg0, uint256 arg1)"),
 			Output:  B("0x000000000000000000000000000000000000000000000000000000000000c0fe000000000000000000000000000000000000000000000000000000000000002a"),
 			Returns: []any{new(tuple)},

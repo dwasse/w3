@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/dwasse/w3/internal"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/lmittmann/w3/internal"
 )
 
 func TestParse(t *testing.T) {

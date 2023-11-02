@@ -3,11 +3,11 @@ package w3
 import (
 	"fmt"
 
+	_abi "github.com/dwasse/w3/internal/abi"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
-	_abi "github.com/lmittmann/w3/internal/abi"
 )
 
 // Event represents a Smart Contract event decoder.

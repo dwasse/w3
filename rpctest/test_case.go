@@ -5,11 +5,11 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/dwasse/w3"
+	"github.com/dwasse/w3/internal"
+	"github.com/dwasse/w3/w3types"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/lmittmann/w3"
-	"github.com/lmittmann/w3/internal"
-	"github.com/lmittmann/w3/w3types"
 )
 
 type TestCase[T any] struct {

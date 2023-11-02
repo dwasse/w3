@@ -3,12 +3,12 @@ package debug_test
 import (
 	"testing"
 
+	"github.com/dwasse/w3"
+	"github.com/dwasse/w3/module/debug"
+	"github.com/dwasse/w3/rpctest"
+	"github.com/dwasse/w3/w3types"
 	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/holiman/uint256"
-	"github.com/lmittmann/w3"
-	"github.com/lmittmann/w3/module/debug"
-	"github.com/lmittmann/w3/rpctest"
-	"github.com/lmittmann/w3/w3types"
 )
 
 func TestTraceTx(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 	"math/big"
 	"strings"
 
+	"github.com/dwasse/w3/internal/crypto"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/lmittmann/w3/internal/crypto"
 )
 
 // Common [big.Int]'s.

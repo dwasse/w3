@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"math/big"
 
+	"github.com/dwasse/w3/internal/module"
+	"github.com/dwasse/w3/w3types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/lmittmann/w3/internal/module"
-	"github.com/lmittmann/w3/w3types"
 )
 
 // BlockByHash requests the block with the given hash with full transactions.

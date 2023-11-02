@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"math/big"
 
+	"github.com/dwasse/w3/internal/crypto"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/core"
-	"github.com/lmittmann/w3/internal/crypto"
 )
 
 var emptyCodeHash = crypto.Keccak256Hash(nil)

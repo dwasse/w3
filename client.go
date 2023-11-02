@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/dwasse/w3/w3types"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/lmittmann/w3/w3types"
 )
 
 // Client represents a connection to an RPC endpoint.

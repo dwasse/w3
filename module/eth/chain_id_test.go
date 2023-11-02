@@ -3,8 +3,8 @@ package eth_test
 import (
 	"testing"
 
-	"github.com/lmittmann/w3/module/eth"
-	"github.com/lmittmann/w3/rpctest"
+	"github.com/dwasse/w3/module/eth"
+	"github.com/dwasse/w3/rpctest"
 )
 
 func TestChainID(t *testing.T) {

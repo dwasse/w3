@@ -1,4 +1,4 @@
-module github.com/lmittmann/w3
+module github.com/dwasse/w3
 
 go 1.18
 

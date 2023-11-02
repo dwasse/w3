@@ -3,13 +3,13 @@ package eth_test
 import (
 	"testing"
 
+	"github.com/dwasse/w3"
+	"github.com/dwasse/w3/module/eth"
+	"github.com/dwasse/w3/rpctest"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/google/go-cmp/cmp"
-	"github.com/lmittmann/w3"
-	"github.com/lmittmann/w3/module/eth"
-	"github.com/lmittmann/w3/rpctest"
 )
 
 func TestLogs(t *testing.T) {
